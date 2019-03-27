@@ -4,6 +4,10 @@ This is a file for [ALE](https://github.com/w0rp/ale) to allow using the
 [GOV.UK Lint](https://github.com/alphagov/govuk-lint) linter for Ruby from
 within vim/nvim.
 
+Before using this, consider switching to Rubocop and telling it to load the
+GOV.UK Lint rules instead. It's a preferred approach to calling
+`govuk-lint-ruby` directly, which is being deprecated.
+
 # Installation
 
 Find your Vim/Neovim configuration folder. This could be `~/.vim` or
